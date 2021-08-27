@@ -1,17 +1,16 @@
 .room__image{
-//  filter: blur(0px);
- // -webkit-filter: blur(0px);
-  //-moz-filter: blur(0px);
-  //-o-filter: blur(0px);
-  //-ms-filter: blur(0px);
-  @include set-blur( 0px );
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
+  -moz-filter: blur(0px);
+  -o-filter: blur(0px);
+  -ms-filter: blur(0px);
+  z-index: 1;
   }
 
 .room__container::before{
- // filter: blur(0px);
- // -webkit-filter: blur(0px);
-//  -moz-filter: blur(0px);
-//  -o-filter: blur(0px);
-//  -ms-filter: blur(0px);
-  @include set-blur( 0px );
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
+  -moz-filter: blur(0px);
+  -o-filter: blur(0px);
+  -ms-filter: blur(0px);
   }
