@@ -19,3 +19,13 @@
 	z-index: -1;
 	@include set-blur( 0px );
 }
+.menu {
+    @extend %goo;
+    position: absolute;
+    right: 13vmin;
+    width: 80vw;
+    height: 7vmin;
+    bottom: 18.83vmin;
+    z-index: -200;
+    text-align: right;
+}
