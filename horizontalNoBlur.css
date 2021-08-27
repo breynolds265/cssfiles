@@ -5,7 +5,7 @@
     left: 50%;
     width: 100%;
     height: auto;
-    z-index: -100;
+    z-index: 100;
     transform: translateX(-50%) translateY(-50%);
 	will-change: transform;
   	transition: 1s opacity;
