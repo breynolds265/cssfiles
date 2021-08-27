@@ -19,13 +19,22 @@
 	z-index: -1;
 	@include set-blur( 0px );
 }
-.menu {
-    @extend %goo;
-    position: absolute;
-    right: 13vmin;
-    width: 80vw;
-    height: 7vmin;
-    bottom: 18.83vmin;
-    z-index: -200;
-    text-align: right;
+
+.room__container__status__available-all-day__title__label1 {
+	@include setProperty( 'margin-top', 162 );
+	@extend .font-normal-60;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	display: block;
+	color: blue;
+}
+
+.room__container__status__available-all-day__title__label2 {
+	@include setProperty( 'margin-top', 20 );
+	@include setProperty( 'margin-bottom', 17 );
+	@extend .font-normal-20;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	display: block;
+	color: blue;
 }
